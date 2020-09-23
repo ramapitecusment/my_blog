@@ -1,0 +1,68 @@
+.articles {
+    margin: 0px;
+    background-color: #f9f9f9;
+    padding: 20px 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.articles_box-item {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 5px 15.36px 0.64px rgba(128, 127, 127, 0.13);
+    padding: 30px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.article_box_item-title {
+    font-size: 20px;
+    margin: auto 0;
+    margin-bottom: auto;
+    float: left;
+    margin-bottom: 10px;
+    line-height: 30px;
+    max-width: 60%;
+}
+
+.article_box_item-title a {
+    color: black;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+.article_box_item-date {
+    color: black;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+.pageNumberContainer, .pageNumberContainer a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.pageNumber {
+    color: #000;
+    font-size: 13px;
+}
+
+a .pageNumber {
+    color: #4285f4;
+}
+
+.pageButtons {
+	display: flex;
+}
+
+
+.paginationContainer {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 5px;
+}

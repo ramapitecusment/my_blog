@@ -1,0 +1,152 @@
+.article, .comments, .add__comment {
+    margin: 0px;
+    background-color: #f9f9f9;
+    padding: 20px 0px;
+}
+.categories {
+    margin: 0px;
+    background-color: #f9f9f9;
+    padding: 20px 0px;
+    margin-top: 10px;
+}
+
+.title__and__views, .comment__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article__box-image, .article__box-text, .article__date, .comments__box-text {
+    margin-bottom: 20px;
+}
+
+.title__and__views{
+    margin-bottom: 5px;
+}
+
+.article__box-inner, .comments__box-inner, .add__comment-inner {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 5px 15.36px 0.64px rgba(128, 127, 127, 0.13);
+    padding: 30px;
+}
+
+.add__comment-inner{
+    padding-top: 14px;
+}
+
+.article__box-author {
+    letter-spacing: 0.1px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    color: #212020;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-align: right;
+}
+
+.article__box-title, .comments__box-title {
+    font-size: 30px;
+    margin: auto 0;
+    float: left;
+    margin-bottom: 5px;
+    line-height: 41px;
+    max-width: 60%;
+}
+
+.article__views {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.article__box-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px 0px;
+}
+
+.article__box-image img{
+    max-height: 500px;
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+}
+
+.title {
+    display: inline-block;
+    width: 100%;
+}
+
+.comments__conteainer-inner {
+    display: flex;
+}
+
+.photos img {
+    height: 100px;
+    margin: 40px 20px 20px;
+}
+
+.comment__container-text {
+    margin: 50px 20px 20px;
+    display: inline-block;
+}
+
+.comments__box-author {
+    letter-spacing: 0.1px;
+    margin-bottom: 10px;
+    color: #212020;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.comments__box-time {
+    margin-bottom: 10px;
+}
+
+.comments__container-item {
+    border: 2px solid #f9f9f9;
+}
+
+.form .form__group {
+    margin-bottom: 20px;
+}
+
+.block__content .form{
+    padding-top: 10px;
+}
+
+.form .form__group:last-child {
+    margin-bottom: 0;
+}
+
+.form .form__control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.form textarea.form__control {
+    min-height: 100px;
+}
+
+.form input[type="submit"].form__control {
+    background-color: black;
+    color: white;
+    border: 3px solid white;
+    width: 250px;
+    opacity: 0.7;
+}
+textarea{
+    resize: none;
+}
+
+.form input[type="submit"].form__control:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+.comment__name, .comment__nickname{
+    width: 40%;
+    
+}
